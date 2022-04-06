@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="big-container">
+            <div class="timer-box">
+                <p class="timer">Time: </p>
+            </div>
+        </div>
+    </header>
+
+<main>
+
+<div class="small-container">
+<section id="start">
+<h1 class="main-title">The Coding Quiz!</h1>
+<p class="main-text">Answer the following question before time runs out. Every wrong answer will deduct time. Enter your score at the end!</p>
+<button id="start-button">Start</button>
+</section>
+
+<section id="questions">
+    <h2 id="question">Question</h2>
+<ul>
+<li class="li-question"><button id="answer1" value="0" type="button" class="btn">Answer1</button></li>
+<li class="li-question"><button id="answer2" value="1" type="button" class="btn">Answer2</button></li>
+</ul>
+
+<div id="rightwrong">
+
+
+</div>
+</section>
+
+
+
+
+<section id="end-page">
+<div class="end-container">
+<h2>You did it!</h2>
+<p>Final Score: <span id="score">0</span></p>
+<p>Enter Your Initials: <input placeholder="initials" id="initials">
+<button id="submitit">Submit</button></p>
+</div>
+</section>
+
+<section id="score">
+<div class="score-container">
+    <h2>Scores</h2>
+    <ol id="scores-list">
+
+    </ol>
+    <button id="back">Back</button>
+    <button id="clear">Clear Scores</button>
+</div>
+</section>
+</div>
+</main>
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>

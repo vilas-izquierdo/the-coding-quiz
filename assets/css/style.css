@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+}
+
+.big-container{
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.small-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-title{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+.main-text{
+    font-size: 18px;
+    padding: 20px;
+}
+
+#start-button{
+    font-size: 30px;
+}
+
+#questions{
+    background-color: lightgray;
+    width: 50%;
+}
+
+#question{
+    font-size: 40px;
+    margin: 20px;
+}
+
+.li-question{
+    font-size: 30px;
+    padding: 10px;
+}
+main{
+    flex: 1 0 auto;
+}
+
+#questions, #end-page, #score, #rightwrong{
+    display: none;
+}

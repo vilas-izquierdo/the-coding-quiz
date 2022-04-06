@@ -15,6 +15,6 @@ the timer subtracts 5 seconds. When you are done you can save your high score al
 ## Links
 
 
-<a href="https://vilas-izquierdo.github.io/the-password-generator/">Deployed Page</a>
+<a href="https://vilas-izquierdo.github.io/the-coding-quiz/">Deployed Page</a>
 
-<a href="https://github.com/vilas-izquierdo/the-password-generator">GitHub</a>k
+<a href="https://github.com/vilas-izquierdo/the-coding-quiz">GitHub</a>
